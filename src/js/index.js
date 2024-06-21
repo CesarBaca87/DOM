@@ -21,7 +21,10 @@ const secondListElementContent = secondListElement.textContent;
 firstListElement.textContent = secondListElementContent;
 secondListElement.textContent = firstListElementContent;
 
-// const header = document.querySelectorAll('header');
-// console.log(`- Hay ${header.querySelectorAll.header} Header
-//   - Hay 1 h1
-//   - Hay 2 nav`);
+const headersElement = document.querySelectorAll('header');
+const h1Element = document.querySelectorAll('h1');
+const navElement = document.querySelectorAll('nav');
+
+console.log(`- Hay ${headersElement.length} Header
+- Hay ${h1Element.length} h1
+- Hay ${navElement.length} nav`);
